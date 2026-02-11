@@ -59,9 +59,4 @@ u:=-x^7+2*x^6-x^5-x^4+2*x^3-x^2-x+2;
 v:=2*x-2;
 u*f + v*g = 3*x^0;
 
-g:=CyclotomicPolynomial(Rationals, j)/r - 1;
-coef:=GcdRepresentation(f,g);
-u:=coef[1];
-v:=coef[2];
-u*f + v*g;
 
