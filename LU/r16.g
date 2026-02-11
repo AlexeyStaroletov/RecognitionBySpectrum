@@ -64,12 +64,3 @@ g:=CyclotomicPolynomial(Rationals, j)/r - 1;
 u:=83*x^5+107*x^4-85*x^3-174*x^2-150*x+172;
 v:=-249*x^7-321*x^6+255*x^5+273*x^4+129*x^3-261*x^2-225*x-513;
 u*f + v*g = 2*257*x^0;
-
-
-coef:=GcdRepresentation(f,g);
-u:=coef[1];
-v:=coef[2];
-u*f + v*g;
-
-
-
