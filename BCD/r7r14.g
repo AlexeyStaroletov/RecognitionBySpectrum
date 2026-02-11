@@ -1,8 +1,12 @@
-x:=Indeterminate(Rationals, "x");
+################################################################################################
+### Let f(x) be the 7th cyclotomic polynomial.
+### Let g(x) be the j-th cyclotomic polynomial divided by r and then reduced by 1, 
+### where j is an integer and r is either equal to 1 or to the largest prime divisor of j.
+### We present polynomials u(x) and v(x) with integer coefficients such that f*u+g*v is equal to an integer.
+### This also works for the 14th cyclotomic polynomial, you need to replace f(x) with f(-x) and make a similar substitution for g, u, and v.
+################################################################################################
 
-##########
-##### r7 and r14
-##########
+x:=Indeterminate(Rationals, "x");
 
 f:=CyclotomicPolynomial(Rationals, 7);
 
