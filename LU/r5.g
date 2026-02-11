@@ -9,27 +9,6 @@ x:=Indeterminate(Rationals, "x");
 
 f:=CyclotomicPolynomial(Rationals, 5);
 
-### j=4; r=2;
-j:=4; r:=2;
-g:=CyclotomicPolynomial(Rationals, j)/r - 1;
-u:=-2*x+3;
-v:=4*x^3-2*x^2+2*x-4;
-u*f + v*g = 5*x^0;
-
-### j=6; r=1;
-j:=6; r:=1;
-g:=CyclotomicPolynomial(Rationals, j)/r - 1;
-u:=-4*x+5;
-v:=4*x^3+3*x^2+2*x+1;
-u*f + v*g = 5*x^0;
-
-### j=6; r=3;
-j:=6; r:=3;
-g:=CyclotomicPolynomial(Rationals, j)/r - 1;
-u:=-10*x+21;
-v:=30*x^3-3*x^2+24*x-15;
-u*f + v*g = 31*x^0;
-
 ### j=7; r=1;
 j:=7; r:=1;
 g:=CyclotomicPolynomial(Rationals, j)/r - 1;
