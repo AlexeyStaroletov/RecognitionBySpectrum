@@ -85,3 +85,46 @@ g:=CyclotomicPolynomial(Rationals, j)/r - 1;
 u:=-2*x^7+3*x^5-2*x^4+x^2-2*x+3;
 v:=2*x^5+2*x^4-x^3+x^2+x-2;
 u*f + v*g = 3*x^0;
+
+### j=16; r=2
+j:=16; r:=2;
+g:=CyclotomicPolynomial(Rationals, j)/r - 1;
+u:=-x^7-x^6-x^5-x^4-x^3+2*x^2+2*x+2;
+v:=2*x^5+2*x^4+2*x^3+4*x^2+4*x-2;
+u*f + v*g = 3*x^0;                                 
+
+### j=20; r=1
+j:=20; r:=1;
+g:=CyclotomicPolynomial(Rationals, j)/r - 1;
+u:=x^7-2*x^6-3*x^5+x^3+x^2+3;
+v:=-x^5+2*x^4+2*x^3+x^2+4*x+1;
+u*f + v*g = 3*x^0;
+
+### j=20; r=5
+j:=20; r:=5;
+g:=CyclotomicPolynomial(Rationals, j)/r - 1;
+u:=-503*x^7-102*x^6+885*x^5+260*x^4-1159*x^3+369*x^2+1504*x+7;
+v:=2515*x^5+510*x^4-1910*x^3+1725*x^2+1880*x-5055;
+u*f + v*g = 4051*x^0;
+
+### j=21; r=1
+j:=21; r:=1;
+g:=CyclotomicPolynomial(Rationals, j)/r - 1;
+u:=-x^11+x^10+x^9-3*x^8+2*x^7+2*x^6-2*x^5-x^4+x^3-2*x+3;
+v:=x^5-x^3+2*x^2-2;
+u*f + v*g = 3*x^0;
+
+### j=21; r=7
+j:=21; r:=7;
+g:=CyclotomicPolynomial(Rationals, j)/r - 1;
+u:=569*x^11-1253*x^10+1489*x^9-1083*x^8-112*x^7+5066*x^6-4676*x^5+569*x^4-1253*x^3+2058*x^2-2336*x+1377;
+v:=-3983*x^5+4788*x^4-5635*x^3+1946*x^2+2730*x-32732;
+u*f + v*g = 3*9811*x^0;
+
+### j=24; r=1
+j:=24; r:=1;
+g:=CyclotomicPolynomial(Rationals, j)/r - 1;
+u:=x^7+x^6+x^5-2*x^4-3*x^3+3;
+v:=-x^5-x^4-x^3+x^2+x-2;
+u*f + v*g = 3*x^0;
+
