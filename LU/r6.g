@@ -9,13 +9,6 @@ x:=Indeterminate(Rationals, "x");
 
 f:=CyclotomicPolynomial(Rationals, 6);
 
-### j=4; r=2;
-j:=4; r:=2;
-g:=CyclotomicPolynomial(Rationals, j)/r - 1;
-u:=x+2;
-v:=-2*x-2;
-u*f+v*g = 3*x^0;
-
 ### j=5; r=1;
 j:=5; r:=1;
 g:=CyclotomicPolynomial(Rationals, j)/r - 1;
